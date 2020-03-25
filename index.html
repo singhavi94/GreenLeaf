@@ -1,0 +1,1924 @@
+<!DOCTYPE html>
+<html>
+<title>Green Leaf Logistic</title>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="image/18.png" height="10px">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="keywords" content="operation,requirements,logistics,organization" />
+  <meta name="description" content="Logistics is generally the detailed organization and implementation of a complex operation. In a general business sense, logistics is the management of the flow of things between the point of origin and the point of consumption in order to meet requirements of customers or corporations." />
+  <!-- Start WOWSlider.com HEAD section -->
+ 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" type="text/css" href="engine1/style.css" />
+  <script type="text/javascript" src="engine1/jquery.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Carter One' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Chicle' rel='stylesheet'>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+<style>
+html
+{
+  scroll-behavior: smooth;
+}
+ nav.navbar
+ {
+  position: fixed;
+  width: 100%;
+ }
+ .navbar-brand
+ {
+    font-size:2em;
+    padding-top: 10px;
+    padding-left: 10px;
+    line-height: 1em;
+    letter-spacing: 2px;
+
+ }
+a.navbar-brand:hover 
+  {
+   transition: 0.7s;
+   
+   color:#03D316  !important;
+ }
+.navbar-header
+  {
+    height: 95px;
+  }
+.navbar 
+  {
+    margin-bottom: 0;
+    background-color:white ;
+    z-index: 9999;
+    border: 0;
+    font-size: 17px;
+    line-height: 1.42857143 !important;
+    letter-spacing: 1.2px;
+    border-radius: 0;
+    font-family:rockwell;
+  }
+.navbar li a, .navbar .navbar-brand 
+  {
+    color:#FE0000 !important;
+   font-family: 'Acme';
+    margin-top: 10px;
+    letter-spacing: 2px;
+  }
+.navbar-nav li a:hover, .navbar-nav li.active a 
+  {
+    color:#03D316     !important;
+    transition: 0.7s;
+    transform: scale(1.1);
+  }
+.navbar-default .navbar-toggle 
+  {
+    border-color: transparent;
+    color: #fff !important;
+
+  }
+  .navbar-default .navbar-toggle:hover
+  {
+    border: 2px solid black;
+    background-color: transparent;
+    border-radius: 0px;
+    transition: 1s;
+  }
+ 
+</style>
+<body> 
+
+  <nav class="navbar navbar-default navbar-fixed">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar" style="border-radius: 0px;background-color:#FE0000;"></span>
+        <span class="icon-bar" style="border-radius: 0px;background-color:#FE0000;"></span>
+        <span class="icon-bar" style="border-radius: 0px;background-color:#FE0000;"></span>                        
+      </button>
+      <a class="navbar-brand" href="#section1"><b><span style="color:#03D316 ;font-family: 'Carter One';">Green Leaf</span><br><span style="color: #FE0000   ;font-family: 'Carter One';">Logistics</span></b></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#section1"><b>Home</b></a></li>
+        <li><a href="#section2"><b>About Us</b></a></li>
+        <li><a href="#our_services"><b>Services</b></a></li>
+        <li><a href="#section9"><b>Contact</b></a></li>
+        <li><a href="#section3"><b>Get Quote</b></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div id="section1" class="container-fluid">
+  <div id="header">
+    <div class="container">
+      <div class="row">
+       <div class="col-lg-3 col-xs-12" style="background-color:;">
+         <h6><i class="fa fa-phone"></i>&nbsp 9584747478</h6>
+       </div>
+       <div class="col-lg-3 col-xs-12" style="background-color:;">
+         <h6><i class="fa fa-envelope-o"></i>&nbsp  greenleaflogistic@gmail.com</h6>
+       </div>
+       <div class="col-lg-3 col-xs-12" style="background-color:;">
+         
+       </div>
+       <div class="col-lg-3 col-xs-12" style="background-color:;">
+                <div class="social_header">
+                    <a href="#">
+                      <i class="fa fa-facebook" data-toggle="tooltip" data-placement="bottom" title="Facebook"></i>
+                    </a> 
+                    <a href="#">
+                      <i class="fa fa-google" data-toggle="tooltip" data-placement="bottom" title="Google"></i>
+                    </a> 
+                    <a href="#">
+                      <i class="fa fa-instagram" data-toggle="tooltip" data-placement="bottom" title="Instagram"></i>
+                    </a>
+                    <a href="#">
+                      <i class="fa fa-linkedin" data-toggle="tooltip" data-placement="bottom" title="Linkedin"></i>
+                    </a> 
+                    <a href="#">
+                      <i class="fa fa-twitter" data-toggle="tooltip" data-placement="bottom" title="Twitter"></i>
+                    </a>
+
+                </div>
+       </div>
+      </div>   
+    </div>
+  </div>
+<style>
+  #header
+  {
+    margin-top: 45px; 
+    text-align: center;
+    background-color:#03D316  ;
+  }
+  .social_header a
+    {
+      text-decoration: none;
+    }
+   
+    .social_header .fa:hover 
+    {
+        color:black;
+        transition:0.7s;
+        transform:rotate(360deg);
+    }
+  .social_header i
+  {
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+  }
+  #header h6
+  {
+    letter-spacing: 2px;
+    font-size: 14px;
+    color: white;
+    font-family: Acme;
+  }
+</style>
+            <div class="welcome">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-2" style="background-color:;"></div>
+                  <div class="col-lg-8 col-xs-12" style="background-color:;">
+                      <h2><b>Green Leaf Logistics</b></h2>
+                  </div>
+                  <div class="col-lg-2" style="background-color:;"></div>
+                </div> <br> 
+                <div class="row">
+                  <div class="col-lg-3" style="background-color:;"></div>
+                  <div class="col-lg-6 col-xs-12" style="background-color:;">
+                    <div class="we_provide_well">
+                      <div class="well">
+                        
+                          <div class="row">
+                           <div class="col-lg-12 col-xs-12" style="background-color:;">
+                             <h1>We Provide Best Services</h1>
+                             <p>Looking for some already great color combinations? Our color chart features flat design colors.</p>
+                           </div>
+                          </div>
+
+                          <div class="row">
+                            <div class="col-lg-2 col-xs-12" style="background-color:;"></div>
+                            <div class="col-lg-4 col-xs-6" style="background-color:;">
+                              <a href="#our_services"><button class="button">Services</button></a>
+                            </div>
+                            <div class="col-lg-4 col-xs-6" style="background-color:;">
+                              <a href="#get_quote"><button class="button">Get Quote</button></a>
+                            </div>
+                            <div class="col-lg-2 col-xs-12" style="background-color:;"></div>
+
+
+                          </div>    
+                         
+                      </div><!--well-->
+                    </div><!--we_provide Well-->
+                  </div>
+                  <div class="col-lg-3" style="background-color:;"></div>
+                </div>     
+              </div>
+          </div>
+</div>
+ <style type="text/css">
+ .we_provide_well .well
+ {
+    border-radius: 0px;
+    background-color:transparent;
+    border-color:#FE0000 ; 
+    border:none;
+    height: 100%;
+ }
+   #section1 
+  {
+    padding-top:50px;
+    height:100%;
+    background-image: url(image/03.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+ .welcome
+ {
+   margin-top: 10%;
+ }
+  .welcome h2
+  {
+    letter-spacing: 5px;
+     padding: 10px;
+    font-size: 4em; 
+    color:white; 
+    border:6px solid ;
+    text-align: center;
+    font-family:rockwell;
+  }
+  .welcome h1
+  {
+    letter-spacing: 5px;
+     padding: 10px; 
+    color:white; 
+    text-align: center;
+    font-family:Acme;
+  }
+  .welcome p
+  {
+    letter-spacing:1px;
+     padding:0px 15px 0px 15px; 
+    color:white; 
+    text-align:center;
+    font-family:Acme;
+  }
+.button 
+  { 
+    background-color:black; 
+    border: none;
+    color:white;
+    padding: 10px 20px;
+    font-family: georgia header;
+    text-decoration: none;
+    font-size: 12px;
+    cursor: pointer;
+    
+    text-align: center;
+    margin-left: 35px;
+    letter-spacing: 2px;
+ 
+  }
+.button a
+  {
+    text-decoration: none; 
+    color:white;
+  }
+ </style>
+<!--<p style="color:black;letter-spacing: 2px;"><b>Started on:11.01.2019 Completed on:___.01.2019</b></p>-->
+<div id="section2" class="container-fluid">
+      
+          <div class="row">
+            <div class="col-lg-1 col-xs-12" style="background-color:;"></div>
+           <div class="col-lg-2 col-xs-12" style="background-color:;"><h2>About Us</h2></div>
+           <div class="col-lg-5 col-xs-12" style="background-color:;"></div>
+           <div class="col-lg-4 col-xs-12" style="background-color:;"></div>
+          </div>   
+       
+      <div class="container">
+        <div class="about_us_one">
+        <div class="row">
+          <div class="col-lg-2 col-xs-12" style="background-color:;"></div>
+         <div class="col-lg-3 col-xs-12" style="background-color:;">
+           <img src="image/09.jpg">
+         </div>
+         <div class="col-lg-5 col-xs-12" style="background-color:;">
+          <h3>We Offer Quick & Powerful Solution For Transport</h3>
+           <p>A lens is a transmissive optical device that focuses or disperses a light beam by means of refraction. A simple lens consists of a single piece of transparent material, while a compound lens consists of several simple lenses (elements), usually arranged along a common axis. </p>
+         </div>
+         <div class="col-lg-2 col-xs-12" style="background-color:;">
+
+         </div>
+        </div>
+        </div>
+        <div class="about_us_two">
+        <div class="row">
+          <div class="col-lg-2 col-xs-12" style="background-color:;"></div>
+         <div class="col-lg-5 col-xs-12" style="background-color:;">
+          <h3>Cargo Shipping Available At Good Discounts</h3>
+             <p>A lens is a transmissive optical device that focuses or disperses a light beam by means of refraction. A simple lens consists of a single piece of transparent material, while a compound lens consists of several simple lenses (elements), usually arranged along a common axis. </p>
+         </div>
+         <div class="col-lg-3 col-xs-12" style="background-color:;">
+          
+         
+         </div>
+         <div class="col-lg-2 col-xs-12" style="background-color:;">
+
+         </div>
+        </div> 
+        </div>     
+      </div>
+</div><!--section2-->
+<style type="text/css">
+  #section2 h2
+  {
+    letter-spacing: 3px;
+    text-align:left;
+    color:#0C8FF9; 
+    font-family: 'Chicle';
+    padding-left: 20px;
+    margin-bottom: 30px;
+  }
+  
+  #section2 
+  {
+    padding-top:30px;
+    height:100%;
+    background-color:;
+    padding-bottom: 30px;
+  }
+  #section2  p
+  {
+    padding: 20px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align: justify;
+
+  }
+  .about_us_one img
+  {
+  height: 200px;
+  width: 200px;
+ margin-left: 90px;
+ border: 1px solid black;
+ padding:5px;
+ cursor: pointer;
+  }
+  .about_us_one:hover img
+  {
+    transform:scale(1.1);
+    transition: 1s;
+  }
+  .about_us_one h3
+  {
+     letter-spacing: 2px;
+    text-align:right;
+    color:#FE0000; 
+    padding-left:20px;
+    padding-right:20px; 
+    font-family: georgia header; 
+  }
+    .about_us_two img
+  {
+  height: 200px;
+  width: 200px;
+ margin-right: 90px;
+ border: 1px solid black;
+ padding:5px;
+  }
+  .about_us_two h3
+  {
+     letter-spacing: 2px;
+    text-align:left;
+    color:#FE0000; 
+     padding-left:20px;
+    padding-right:20px; 
+    font-family: georgia header; 
+  }
+  #section2 h4
+  {
+     letter-spacing: 2px;
+    text-align: center;
+    color:orange; 
+    font-family: georgia header; 
+  }
+</style>
+<div id="our_services" class="container-fluid">
+          <div class="row">
+             <div class="col-lg-1 col-xs-12" style="background-color:;"></div>
+             <div class="col-lg-5 col-xs-12" style="background-color:;"><h2>Our Services</h2></div>
+             <div class="col-lg-2 col-xs-12" style="background-color:;"></div>
+             <div class="col-lg-4 col-xs-12" style="background-color:;"></div>
+          </div>
+
+           <div class="row">
+             <div class="col-lg-2 col-xs-12" style="background-color:;"></div>
+             <div class="col-lg-3 col-xs-12" style="background-color:;">
+                <div class="Our_services_well">
+                  <div class="well">
+                    <img src="image/11.jpg" width="100%">
+                    <div class="service">
+                      <h3>Roadways Services</h3>
+                    </div>
+                    <h5>A lens is a transmissive optical device that focuses or disperses a light beam by means of refraction. A simple lens consists of a single piece of transparent material,</h5>
+                  </div><!--well-->
+                </div><!--Our_services Well-->
+             </div>
+             <div class="col-lg-3 col-xs-12" style="background-color:;">
+               <div class="Our_services_well">
+                  <div class="well">
+                    <img src="image/12.jpg" width="100%">
+                    <div class="service">
+                      <h3>Airways Services</h3>
+                    </div>
+                    <h5>A lens is a transmissive optical device that focuses or disperses a light beam by means of refraction. A simple lens consists of a single piece of transparent material,</h5>
+                  </div><!--well-->
+                </div><!--Our_services Well-->
+             </div>
+             <div class="col-lg-3 col-xs-12" style="background-color:;">
+               <div class="Our_services_well">
+                  <div class="well">
+                    <img src="image/14.jpg" width="100%">
+                    <div class="service">
+                      <h3>Railways Services</h3>
+                    </div>
+                    <h5>A lens is a transmissive optical device that focuses or disperses a light beam by means of refraction. A simple lens consists of a single piece of transparent material,</h5>
+                  </div><!--well-->
+                </div><!--Our_services Well-->
+             </div>
+             <div class="col-lg-1 col-xs-12" style="background-color:;"></div>
+          </div>      
+</div><!--our_services-->
+<style type="text/css">
+.Our_services_well .well
+{
+  height: 100%;
+  background-color:#E4FEE1  ;
+  border-radius: 0px;
+  border:none;
+}
+.Our_services_well .well img
+{
+ padding-top: 10px;
+ padding-bottom: 10px;
+ cursor: pointer;
+}
+.Our_services_well .well:hover img
+{
+   transition: 1s;
+   transform: scaleY(1.1);
+}
+.service
+{
+  background-color: black;
+  color: white;
+}
+.service h3
+{
+  padding:10px;
+  text-align: center;
+  font-family: 'Chicle';
+  letter-spacing: 3px;
+  margin-top: 0px;
+  font-size: 18px;
+}
+.Our_services_well .well h5
+{
+  padding:10px;
+  text-align:left;
+  font-family:georgia header;
+  letter-spacing:1px;
+  margin-top: 0px;
+  font-size: 16px;
+}
+  #our_services h2
+  {
+    letter-spacing: 3px;
+    text-align:left;
+    color:#0C8FF9; 
+    font-family: 'Chicle';
+   margin-bottom: 30px;
+  }
+  #our_services 
+  {
+    padding-top:30px;
+    padding-bottom:30px;
+    height:100%;
+    background-color:#E4FEE1  ;
+  }
+  #our_services h4
+  {
+     letter-spacing: 2px;
+    text-align: center;
+    color:orange; 
+    font-family: georgia header; 
+  }
+</style>
+<div id="our_services_areas" class="container-fluid">
+          <div class="row">
+             <div class="col-lg-1 col-xs-12" style="background-color:;"></div>
+             <div class="col-lg-5 col-xs-12" style="background-color:;"><h2>Our Services Areas</h2></div>
+             <div class="col-lg-2 col-xs-12" style="background-color:;"></div>
+             <div class="col-lg-4 col-xs-12" style="background-color:;"></div>
+          </div> 
+          <div class="container">
+          <div class="row">
+             <div class="col-lg-12 col-xs-12" style="background-color:;">
+                <div class="row">
+                 <div class="col-lg-2 col-xs-4" style="background-color:;">
+                    <div class="states_name_well">
+                      <div class="well">
+                       
+                        <h3>Delhi</h3>
+                      </div><!--well-->
+                    </div><!--states_name Well-->
+                 </div>
+                 <div class="col-lg-2 col-xs-4" style="background-color:;">
+                   <div class="states_name_well">
+                      <div class="well">
+                        
+                        <h3>Banglore</h3>
+                      </div><!--well-->
+                    </div><!--states_name Well-->
+                 </div>
+                 <div class="col-lg-2 col-xs-4" style="background-color:;">
+                   <div class="states_name_well">
+                      <div class="well">
+                       
+                        <h3>Indore</h3>
+                      </div><!--well-->
+                    </div><!--states_name Well-->
+                 </div>
+                 <div class="col-lg-2 col-xs-4" style="background-color:;">
+                   <div class="states_name_well">
+                      <div class="well">
+                       
+                        <h3>Tamil Nadu</h3>
+                      </div><!--well-->
+                    </div><!--states_name Well-->
+                 </div>
+                 <div class="col-lg-2 col-xs-4" style="background-color:;">
+                   <div class="states_name_well">
+                      <div class="well">
+                        
+                        <h3>Goa</h3>
+                      </div><!--well-->
+                    </div><!--states_name Well-->
+                 </div>
+                 <div class="col-lg-2 col-xs-4" style="background-color:;">
+                   <div class="states_name_well">
+                      <div class="well">
+                       
+                        <h3>Nagpur</h3>
+                      </div><!--well-->
+                    </div><!--states_name Well-->
+                 </div>
+                </div>
+
+             </div>
+          </div> 
+          </div>    
+</div><!--our_services_areas-->
+<style type="text/css">
+.states_name_well .well
+{
+   border-radius: 0px;
+   border-color: green;
+    height:100%;
+    padding: 5px;
+    background-color:transparent;
+}
+.states_name_well .well h3
+{
+  letter-spacing: 3px;
+    text-align:center;
+    color:#0C8FF9; 
+    font-size: 16px;
+    font-family:rockwell;
+}
+  #our_services_areas h2
+  {
+    letter-spacing: 3px;
+    text-align:left;
+    color:#0C8FF9; 
+    font-family: 'Chicle';
+    margin-bottom: 30px;
+  }
+  #our_services_areas 
+  {
+    padding-top:30px;
+     padding-bottom:30px;
+    height:100%;
+    background-color:;
+  }
+  #our_services_areas h4
+  {
+     letter-spacing: 2px;
+    text-align: center;
+    color:orange; 
+    font-family: georgia header; 
+  }
+</style>
+
+<div id="section3" class="container-fluid">
+   
+      <div class="container">
+          <div class="row">
+           <div class="col-lg-3 col-xs-6" style="background-color:;">
+             <h1>15</h1>
+              <div class="analysis_well">
+                <div class="well">
+                  <h3>Years</h3>
+                  <h4>Of Growing Business</h4>
+                </div><!--well-->
+              </div><!--analysis Well-->
+              
+           </div>
+           <div class="col-lg-3 col-xs-6" style="background-color:;">
+             <h1>230+</h1>
+              <div class="analysis_well">
+                <div class="well">
+                  <h3>Satisfied</h3>
+                  <h4>Clients</h4>
+                </div><!--well-->
+              </div><!--analysis Well-->
+              <br>
+           </div>
+           <div class="col-lg-3 col-xs-6" style="background-color:;">
+             <h1>115</h1>
+              <div class="analysis_well">
+                <div class="well">
+                  <h3>Drivers</h3>
+                   <h4>Nationwide</h4>
+                </div><!--well-->
+              </div><!--analysis Well-->
+             
+           </div>
+           <div class="col-lg-3 col-xs-6" style="background-color:;">
+             <h1>215</h1>
+              <div class="analysis_well">
+                <div class="well">
+                  <h3>Loads</h3>
+                  <h4>Per year</h4>
+                </div><!--well-->
+              </div><!--analysis Well-->
+              
+           </div>
+          </div>   
+      </div><!--container-->
+</div><!--section3-->
+<style type="text/css">
+  #section3 h2
+  {
+    letter-spacing: 3px;
+    text-align:center;
+    color:; 
+     margin-bottom: 30px;
+    font-family: 'Chicle';
+  }
+   #section3 h1
+  {
+    letter-spacing: 3px;
+    text-align:center;
+    color:white; 
+    font-family: 'Chicle';
+  }
+  .analysis_well .well
+  {
+    height: 100%;
+    border-radius: 0px;
+    background-color:transparent;
+    border: 1px solid #FE0000;
+  }
+  #section3 
+  {
+    padding-top:30px;
+    height:100%;
+    background-image: url(image/37.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom:30px;
+  }
+   #section3 h3
+  {
+     letter-spacing: 2px;
+    text-align: center;
+    color:white; 
+    font-family: georgia header; 
+  }
+  #section3 h4
+  {
+     letter-spacing: 2px;
+    text-align: center;
+    color:#03D316; 
+    font-family: georgia header; 
+  }
+</style>
+
+<div id="section4" class="container-fluid">
+          <div class="row">
+            <div class="col-lg-1 col-xs-12" style="background-color:;"></div>
+           <div class="col-lg-3 col-xs-12" style="background-color:;"> <h2>Why We Are Best</h2></div>
+           <div class="col-lg-4 col-xs-12" style="background-color:;"></div>
+           <div class="col-lg-4 col-xs-12" style="background-color:;"></div>
+          </div>   
+      <div class="container">
+          <div class="row">
+           <div class="col-lg-7 col-xs-12" style="background-color:;">
+             <h4>Effcientyly unleash cross-media information withour cross-media value.Quickly maximize timely deliverables for real-time schemas.Dramatically maintain, Completely synergize resource taxing via premier niche markets.Professionally cultivate one-to-one customer.</h4>
+             <br><br>
+             <button class="button_read_more"><b>Read More</b> <i class="fa fa-user-o"></i></button>
+             <hr />
+              <div class="row">
+                <div class="col-lg-4 col-xs-4" style="background-color:;">
+                  <div class="are_best_well">
+                     
+                     <i class="fa fa-rocket"></i>
+                    
+                  </div><!--are_best Well-->
+                </div>
+                <div class="col-lg-4 col-xs-4" style="background-color:;">
+                  <div class="are_best_well">
+                    
+                     <i class="fa fa-street-view"></i>
+                    
+                  </div><!--are_best Well-->
+                </div>
+                <div class="col-lg-4 col-xs-4" style="background-color:;">
+                  <div class="are_best_well">
+                    
+                     <i class="fa fa-thumbs-o-up"></i>
+                     
+                  </div><!--are_best Well-->
+                </div>
+              </div> <hr />
+                <div class="row">
+                    <div class="col-lg-4 col-xs-4" style="background-color:;">
+                      
+                       <h3>1. Quality Commitment</h3>
+                      <div class="are_best">
+                        
+                        <h5>Incubator viral prood management mailin such a founders.</h5>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-xs-4" style="background-color:;">
+                      
+                      <h3>2. Quality Commitment</h3>
+                      <div class="are_best">
+                        <h5>Incubator viral prood management mailin such a founders.</h5>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-xs-4" style="background-color:;">
+                      
+                      <h3>3. Quality Commitment</h3>
+                      <div class="are_best">
+                        <h5>Incubator viral prood management mailin such a founders.</h5>
+                      </div>
+                    </div>
+                </div>     
+           </div>
+            <div class="col-lg-1 col-xs-12" style="background-color:;"></div>
+           <div class="col-lg-4 col-xs-12" style="background-color:;">
+               <div class="get_quote" id="get_quote">
+                 <div class="row">
+                    <div class="col-lg-12 col-xs-12" style="background-color:;">
+                      <img src="image/28.png">
+                    </div>
+                  </div>  
+                      <h3>Fill the form below and we will get back to you ASAP.</h3>
+      <form action="" method="post">
+                      <div class="row">
+                          <div class="col-lg-12 col-xs-12" style="background-color:;">
+                              <div class="form-group">
+                                <input type="text" class="form-control" id="usr" placeholder="N a m e">
+                              </div>
+                          </div>
+                      </div>   
+                      <div class="row">
+                        <div class="col-lg-12 col-xs-12" style="background-color:;">
+                          <div class="form-group">
+                            <input type="email" class="form-control" id="usr" placeholder="E m a i l">
+                          </div>
+                        </div>
+                      </div> 
+                      <div class="row">
+                        <div class="col-lg-12 col-xs-12" style="background-color:;">
+                          <div class="form-group">
+                            <input type="number" class="form-control" id="usr" placeholder="P h o n e">
+                          </div>
+                        </div>
+                      </div> 
+                      <div class="row">
+                        <div class="col-lg-6 col-xs-6" style="background-color:;">
+                          <div class="form-group">
+                           <select class="form-control" class="col-sm-4" id="sel1" required="" name="state" style="text-transform:;">
+                            <option>From</option>
+                             <option value="Andra Pradesh">Andra Pradesh</option>
+                             <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                             <option value="Assam">Assam</option>
+                             <option value="Bihar">Bihar</option>
+                             <option value="Chhatisgarh">Chhatisgarh</option>
+                             <option value="Goa">Goa</option>
+                             <option value="Gujarat">Gujarat</option>
+                             <option value="Haryana">Haryana</option>
+                             <option value="Himachal Pradesh">Himachal Pradesh</option>
+                             <option value="Jammu and kashmir">Jammu and Kashmir</option>
+                             <option value="Jharkhand">Jharkhand</option>
+                             <option value="Karnataka">Karnataka</option>
+                             <option value="Kerala">Kerala</option>
+                             <option value="Madhya Pradesh">Madhya Pradesh</option>
+                             <option value="Maharashtra">Maharashtra</option>
+                             <option value="Manipur">Manipur</option>
+                             <option value="Meghalaya">Meghalaya</option>
+                             <option value="Mizoram">Mizoram</option>
+                             <option value="Nagaland">Nagaland</option>
+                             <option value="Orissa">Orissa</option>
+                             <option value="Punjab">Punjab</option>
+                             <option value="Rajasthan">Rajasthan</option>
+                             <option value="Sikkim">Sikkim</option>
+                             <option value="Tamil Nadu">Tamil Nadu</option>
+                             <option value="Telagana">Telagana</option>
+                             <option value="Tripura">Tripura</option>
+                             <option value="Uttranchal">Uttranchal</option>
+                             <option value="Uttar Pradesh">Uttar Pradesh</option>
+                             <option value="West Bengal">West Bengal</option>
+                        </select>
+                         </div>
+                       </div>
+                       <div class="col-lg-6 col-xs-6" style="background-color:;">
+                         <div class="form-group">
+                           <select class="form-control" class="col-sm-4" id="sel1" required="" name="state" style="text-transform:;">
+                            <option>To</option>
+                             <option value="Andra Pradesh">Andra Pradesh</option>
+                             <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                             <option value="Assam">Assam</option>
+                             <option value="Bihar">Bihar</option>
+                             <option value="Chhatisgarh">Chhatisgarh</option>
+                             <option value="Goa">Goa</option>
+                             <option value="Gujarat">Gujarat</option>
+                             <option value="Haryana">Haryana</option>
+                             <option value="Himachal Pradesh">Himachal Pradesh</option>
+                             <option value="Jammu and kashmir">Jammu and Kashmir</option>
+                             <option value="Jharkhand">Jharkhand</option>
+                             <option value="Karnataka">Karnataka</option>
+                             <option value="Kerala">Kerala</option>
+                             <option value="Madhya Pradesh">Madhya Pradesh</option>
+                             <option value="Maharashtra">Maharashtra</option>
+                             <option value="Manipur">Manipur</option>
+                             <option value="Meghalaya">Meghalaya</option>
+                             <option value="Mizoram">Mizoram</option>
+                             <option value="Nagaland">Nagaland</option>
+                             <option value="Orissa">Orissa</option>
+                             <option value="Punjab">Punjab</option>
+                             <option value="Rajasthan">Rajasthan</option>
+                             <option value="Sikkim">Sikkim</option>
+                             <option value="Tamil Nadu">Tamil Nadu</option>
+                             <option value="Telagana">Telagana</option>
+                             <option value="Tripura">Tripura</option>
+                             <option value="Uttranchal">Uttranchal</option>
+                             <option value="Uttar Pradesh">Uttar Pradesh</option>
+                             <option value="West Bengal">West Bengal</option>
+                        </select>
+                         </div>
+                       </div>  
+                      </div> 
+                       <div class="row">
+                        <div class="col-lg-12 col-xs-12" style="background-color:;">
+                          <div class="form-group">
+                            <textarea class="form-control" rows="5" id="comment"></textarea>
+                          </div>
+                       </div>
+                      </div>
+                          <div class="row">
+                           <div class="col-lg-6 col-xs-6" style="background-color:;">
+                             <button type="button" class="btn btn-primary btn-block"><b>Request</b></button>
+                           </div>
+                               <div class="col-lg-6 col-xs-6" style="background-color:;">
+                             <button type="reset" class="btn btn-danger btn-block"><b>Cancel</b></button>
+                           </div>
+                          </div>
+        </form>
+             </div><!--get quote-->
+           </div>
+          </div>   
+      </div><!--container-->
+</div><!--section4-->
+<style type="text/css">
+.btn-primary
+  {
+    border-radius: 0px;
+    border: 0px;
+    background-color:#03d316;
+    letter-spacing: 2px;
+     font-family: georgia header;
+  }
+  .btn-primary:hover
+  {
+background-color:black;
+transition: 0.9s;
+  }
+  .btn-danger
+  {
+    border-radius: 0px;
+    border: 0px;
+    background-color:#FE0000;
+    letter-spacing: 2px;
+     font-family: georgia header;
+  }
+  .btn-danger:hover
+  {
+background-color:black;
+transition: 0.9s;
+  }
+   select.form-control 
+    {
+    border-radius: 0px;
+    }
+  .get_quote
+  {
+    background-color:#E4FEE1;
+    height: 100%; 
+    margin-top: 20px;
+    padding: 20px;
+   
+  }
+   .get_quote img
+   {
+    width:100%;
+    
+    margin-left: 8px;
+    margin-top: -6px;
+
+   }
+   .get_quote label
+   {
+    letter-spacing: 3px;
+    padding-top: 10px;
+    text-align: left;
+    color: black;
+    font-family: georgia header;
+     
+   }
+   .get_quote input
+   {
+    border-radius: 0px;
+    border: 1px solid #03D316;
+    background-color: #F7F7F7;
+   }
+    .get_quote select
+   {
+    border-radius: 0px;
+    border: 1px solid #03D316;
+    font-family: georgia header;
+    letter-spacing: 1px;
+    background-color: #F7F7F7;
+   }
+  
+   .get_quote textarea
+   {
+    border-radius: 0px;
+    border: 1px solid #03D316;
+    background-color: #F7F7F7;
+   }
+::-webkit-input-placeholder
+{
+  color: red;
+  font-family: georgia header;
+  letter-spacing: 1px;
+  font-size: 14px;
+}  
+
+.are_best_well 
+{
+  height: 100%;
+  background-color:;
+  border-radius: 0px;
+}
+.are_best_well p
+{
+  height: 20px;
+  width: 20px;
+ border: 2px;
+padding-top: 1px;
+padding-left: 5px;
+margin-bottom: -10px;
+overflow: hidden;
+  background-color:;
+   font-family: 'georgia header';
+}
+.are_best_well i
+{
+  font-size: 32px;
+  padding: 35px;
+  text-align: center;
+  border: 4px solid black; 
+  cursor: pointer;
+}
+.are_best_well .fa:hover 
+{
+  transition: 0.9s;
+  transform: rotate(360deg);
+}
+.are_best i
+{
+  font-size: 20px;
+  padding: 0px;
+  margin-left: 30px;
+}
+.are_best h5
+{
+    letter-spacing: 1px;
+    text-align:left;
+    color:black; 
+    font-size: 16px;
+    padding: 3px;
+    text-align: justify;
+    font-family: georgia header; 
+}
+
+
+  #section4 h2
+  {
+    letter-spacing: 3px;
+    text-align:left;
+    color:#0C8FF9; 
+    margin-bottom: 30px;
+    font-family: 'Chicle';
+  }
+  #section4 h3
+  {
+    letter-spacing:1px;
+    text-align: center;
+    color:#0C8FF9; 
+    font-size: 18px;
+    font-family: 'Chicle';
+  }
+  #section4 
+  {
+    padding-top:30px;
+    padding-bottom: 30px;
+    height:100%;
+    background-color:#E4FEE1;
+  }
+  #section4 h4
+  {
+    letter-spacing: 1px;
+    text-align:left;
+    text-align: justify;
+    padding: 20px;
+    line-height: 25px;
+    color:black; 
+    font-family: georgia header; 
+  }
+  .button_read_more i
+  {
+    padding-left: 5px;
+  }
+  .button_read_more 
+  { 
+    background-color:black; 
+    border: none;
+    color:white;
+    padding: 10px 20px;
+    font-family: georgia header;
+    text-decoration: none;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 35px;
+    letter-spacing: 2px;
+  }
+.button_read_more a
+  {
+    text-decoration: none; 
+    color:white;
+  }
+</style>
+       
+<div id="section5" class="container-fluid">
+          <div class="row">
+            <div class="col-lg-1 col-xs-12" style="background-color:;"></div>
+           <div class="col-lg-4 col-xs-12" style="background-color:;"> <h2>What Our Client Says</h2></div>
+           <div class="col-lg-3 col-xs-12" style="background-color:;"></div>
+           <div class="col-lg-4 col-xs-12" style="background-color:;"></div>
+          </div>   
+    
+      <br>
+      <div class="container">
+          <div class="row">
+           <div class="col-lg-2 col-xs-12" style="background-color:;"></div>
+           <div class="col-lg-4 col-xs-12" style="background-color:;">
+              <div class="client_says_well">
+                <div class="well">
+                    <div class="row">
+                     <div class="col-lg-8 col-xs-8" style="background-color:;"><h3>Avinash Singh</h3><h5>Delhi</h5></div>
+                     <div class="col-lg-4 col-xs-4" style="background-color:;">
+                       <img src="image/09.jpg">
+                     </div>
+                    </div>   
+                  
+                  <p>Effcientyly unleash cross-media information withour cross-media value.Quickly maximize timely deliverables for real-time schemas.Dramatically maintain, Completely synergize resource taxing via premier niche markets.</p>
+                </div><!--well-->
+              </div><!--client_says Well-->
+           </div>
+           <div class="col-lg-4 col-xs-12" style="background-color:;">
+             <div class="client_says_well">
+                <div class="well">
+                    <div class="row">
+                     <div class="col-lg-8 col-xs-8" style="background-color:;"><h3>Avinash Singh</h3><h5>Delhi</h5></div>
+                     <div class="col-lg-4 col-xs-4" style="background-color:;">
+                       <img src="image/09.jpg">
+                     </div>
+                    </div>   
+                  
+                  <p>Effcientyly unleash cross-media information withour cross-media value.Quickly maximize timely deliverables for real-time schemas.Dramatically maintain, Completely synergize resource taxing via premier niche markets.</p>
+                </div><!--well-->
+              </div><!--client_says Well-->
+           </div>
+           <div class="col-lg-2 col-xs-12" style="background-color:;"></div>
+          </div>   
+      </div><!--container-->
+</div><!--section5-->
+<style type="text/css">
+ .client_says_well .well
+                {
+                  border-radius: 0px;
+                  background-color:white;
+                  height: 100%;
+                  border:2px solid black;
+                  border-top-right-radius: 50px;
+                }
+                .client_says_well .well img
+                {
+                  height: 80px;
+                  width: 80px;
+                 margin-top: -10px;
+                  margin-left: 15px;
+                  border-radius: 50%;
+                }
+     .client_says_well .well h3
+     {
+       letter-spacing: 2px;
+    text-align:left;
+    color:black; 
+    font-family: georgia header; 
+     }
+     .client_says_well .well h5
+     {
+       letter-spacing: 2px;
+    text-align:left;
+    color:; 
+    font-family: georgia header; 
+     }
+     .client_says_well .well p
+     {
+       letter-spacing: 2px;
+    text-align:left;
+    line-height: 20px;
+    color:black; 
+    font-family: georgia header; 
+     }
+  #section5 h2
+  {
+    letter-spacing: 3px;
+    text-align:left;
+    color:#0C8FF9; 
+    margin-bottom: 30px;
+    font-family: 'Chicle';
+  }
+  #section5 
+  {
+    padding-top:30px;
+    padding-bottom:30px;
+    height:100%;
+    background-color:;
+  }
+  #section5 h4
+  {
+     letter-spacing: 2px;
+    text-align: center;
+    color:orange; 
+    font-family: georgia header; 
+  }
+</style>
+
+<div id="section6" class="container-fluid">
+          <div class="row">
+             <div class="col-lg-1 col-xs-12" style="background-color:;"></div>
+             <div class="col-lg-2 col-xs-12" style="background-color:;"><h2>Our Team</h2></div>
+             <div class="col-lg-5 col-xs-12" style="background-color:;"></div>
+             <div class="col-lg-4 col-xs-12" style="background-color:;"></div>
+          </div> 
+
+            <div class="container">
+              <div class="row">
+                 <div class="col-lg-3 col-xs-12" style="background-color:;">
+                     
+                 </div>
+                 <div class="col-lg-3 col-xs-6" style="background-color:;">
+                      <div class="our_team_well1">
+                      <div class="well">
+                              <img src="image/5.jpg" style="width: 100%;">
+                        <h3 style="font-size: 16px;">Avinash Singh</h3>
+                        <h4 style="font-size: 14px;">Founder</h4>
+                          <div class="social_our_team">
+                              <a href="#"><i class="fa fa-facebook"></i></a> 
+                              <a href="#"><i class="fa fa-google"></i></a> 
+                              <a href="#"><i class="fa fa-instagram"></i></a>
+                              <a href="#"><i class="fa fa-linkedin"></i></a> 
+                              <a href="#"><i class="fa fa-instagram"></i></a>
+                          </div>
+
+                      </div><!--well-->
+                    </div><!--our_team Well-->
+                 </div>
+                 <div class="col-lg-3 col-xs-6" style="background-color:;">
+                    <div class="our_team_well2">
+                      <div class="well">
+                              <img src="image/6.jpg" style="width: 100%;">
+                        <h3 style="font-size: 16px;">Avinash Singh</h3>
+                        <h4 style="font-size: 14px;">Founder</h4>
+                          <div class="social_our_team">
+                              <a href="#"><i class="fa fa-facebook"></i></a> 
+                              <a href="#"><i class="fa fa-google"></i></a> 
+                              <a href="#"><i class="fa fa-instagram"></i></a>
+                              <a href="#"><i class="fa fa-linkedin"></i></a> 
+                              <a href="#"><i class="fa fa-instagram"></i></a>
+                          </div>
+
+                      </div><!--well-->
+                    </div><!--our_team Well-->
+                 </div>
+                 <div class="col-lg-3 col-xs-12" style="background-color:;">
+                    
+                 </div>
+              </div>   
+            </div>  
+</div><!--section6-->
+<style type="text/css">
+.social_our_team
+{
+  text-align: center;
+  background-color:black;
+   cursor: pointer;
+ 
+}
+.social_our_team i
+{
+  font-size: 20px;
+  padding: 5px; 
+  color: white;
+}
+.social_our_team .fa:hover
+{
+  transition: 0.7s;
+  transform: rotate(360deg);
+}
+ 
+ 
+.our_team_well1 .well
+{
+  height: 100%;
+  background-color: black;
+  border-radius: 0px;
+   cursor: pointer;
+  border: none;
+  padding: 10px;
+}
+.our_team_well1 .well img
+{
+  padding: 5px;
+  border:1px solid white;
+ 
+}
+
+.our_team_well1 .well h3
+{
+  letter-spacing: 3px;
+    text-align:center;
+    color:#0C8FF9; 
+    font-family: 'Chicle';
+}
+.our_team_well1 .well h4
+{
+  letter-spacing: 2px;
+    text-align: center;
+    color:orange; 
+    font-family: georgia header; 
+}
+.our_team_well1 .well:hover h3
+{
+  letter-spacing: 5px;
+  transition: 1s;
+}
+.our_team_well1 .well:hover h4
+{
+  letter-spacing: 5px;
+  transition: 1s;
+}
+.our_team_well2 .well
+{
+  height: 100%;
+  background-color: black;
+  border-radius: 0px;
+  border: none;
+  padding: 10px;
+}
+.our_team_well2 .well img
+{
+  padding: 5px;
+  border:1px solid white;
+  cursor: pointer;
+}
+.our_team_well2 .well h3
+{
+  letter-spacing: 3px;
+    text-align:center;
+    color:#0C8FF9; 
+    font-family: 'Chicle';
+}
+.our_team_well2 .well h4
+{
+  letter-spacing: 2px;
+    text-align: center;
+    color:orange; 
+    font-family: georgia header; 
+}
+.our_team_well2 .well:hover h3
+{
+  letter-spacing: 5px;
+  transition: 1s;
+}
+.our_team_well2 .well:hover h4
+{
+  letter-spacing: 5px;
+  transition: 1s;
+}
+  #section6 h2
+  {
+    letter-spacing: 3px;
+    text-align:left;
+    color:#0C8FF9; 
+    margin-bottom: 30px;
+    font-family: 'Chicle';
+  }
+  #section6 
+  {
+    padding-top:30px;
+    height:100%;
+     padding-bottom:30px;
+    background-color:#E4FEE1;
+  }
+   
+</style>
+ 
+<div id="section7" class="container-fluid">
+          <div class="row">
+           <div class="col-lg-1 col-xs-12" style="background-color:;"></div>
+           <div class="col-lg-3 col-xs-12" style="background-color:;"><h2>How Does We Work</h2></div>
+
+           <div class="col-lg-3 col-xs-12" style="background-color:;"></div>
+           <div class="col-lg-5 col-xs-12" style="background-color:;"></div>
+          </div>
+          <div class="container">
+            <div class="row">
+               <div class="col-lg-1 col-xs-12" style="background-color:;"></div>
+               <div class="col-lg-5 col-xs-12" style="background-color:;">
+                  <div class="w3-content w3-section" style="max-width:500px;margin-left: 50px;padding-top: 60px;">
+                    <img class="mySlides w3-animate-left" src="image/11.jpg" style="width:90%" >
+                    <img class="mySlides w3-animate-right" src="image/12.jpg" style="width:90%">
+                    <img class="mySlides w3-animate-left" src="image/14.jpg" style="width:90%">
+                    <img class="mySlides w3-animate-right" src="image/15.jpg" style="width:90%">
+                    <img class="mySlides w3-animate-left" src="image/17.jpg" style="width:90%">
+                  </div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 6000);    
+}
+</script>
+
+               </div>
+               <div class="col-lg-5 col-xs-12" style="background-color:;">
+                <h1><b>Effcientyly unleash cross-media information withour cross-media value.</b></h1>
+                 <h3><span><i class="fa fa-car"></i></span>International Transport Delivery System</h3>
+                 <h3><span><i class="fa fa-bullhorn"></i></span>Fast & Best Deliver Servive</h3>
+                 <h3><span><i class="fa fa-list-alt"></i></span>Standard Courier Value</h3>
+                 <h3><span><i class="fa fa-plane"></i></span>Easy And Air Freight Service</h3>
+                 <h3><span><i class="fa fa-truck"></i></span>Packaging & Storage</h3>
+               </div>
+               <div class="col-lg-1 col-xs-12" style="background-color:;"></div>
+            </div>   
+          </div>  
+</div><!--section7-->
+<style type="text/css">
+  #section7 h2
+  {
+    letter-spacing: 3px;
+    text-align:left;
+    color:#0C8FF9; 
+    margin-bottom: 30px;
+    font-family:Chicle;
+  }
+  #section7 
+  {
+    padding-top:30px;
+    height:100%;
+    background-color:;
+    padding-bottom:30px;
+  }
+   #section7 span i
+   {
+    padding-left: 10px;
+    padding-right: 10px;
+   }
+   #section7 h3
+  {
+     letter-spacing: 2px;
+    text-align:left;
+    font-size: 16px;
+    line-height: 30px;
+    
+    color:black; 
+    font-family: georgia header; 
+  }
+  #section7 h1
+  {
+     letter-spacing: 2px;
+    text-align:left;
+    font-size: 22px;
+    padding: 20px;
+    margin-bottom: 30px;
+    color:black; 
+    font-family: georgia header; 
+  }
+  #section7 h4
+  {
+     letter-spacing: 2px;
+    text-align: center;
+    color:orange; 
+    font-family: georgia header; 
+  }
+
+</style>
+
+<div id="section8" class="container-fluid">
+      <div class="container">
+          <div class="row"> 
+             <div class="col-lg-1 col-xs-2" style="background-color:;"></div>
+           <div class="col-lg-6 col-xs-10" style="background-color:;">
+             <div class="ready_to_get_well">
+                <div class="well">
+                  <h2>Ready To Get Moving ?</h2>
+                  <h2>Request A Quote</h2>
+                </div><!--well-->
+              </div><!--ready_to_get Well-->
+            </div>
+             <div class="col-lg-1 col-xs-2" style="background-color:;"></div>
+            <div class="col-lg-4 col-xs-8" style="background-color:;"> 
+              <a href="#section4"><img src="image/26.png" width="100%"></a>   
+            </div>
+          
+          </div>   
+      </div><!--container-->
+</div><!--section8-->
+<style type="text/css">
+.ready_to_get_well .well
+    {
+      border-radius: 0px;
+      height: 100%;
+      margin-top: 30px;
+      border:none;
+      background-color: transparent;
+    }
+     
+  #section8 h2
+  {
+    letter-spacing: 3px;
+    text-align:left;
+    color:white; 
+     
+    font-family: 'Chango';
+  }
+  #section8
+  {
+    padding-top:30px;
+    padding-bottom:30px;
+    height:100%;
+    background-color:#03D316;
+  }
+  #section8 h4
+  {
+     letter-spacing: 2px;
+    text-align: center;
+    color:orange; 
+    font-family: georgia header; 
+  }
+</style>
+<div id="section9" class="container-fluid">
+          <div class="row">
+            <div class="col-lg-1 col-xs-12" style="background-color:;"></div>
+            <div class="col-lg-2 col-xs-12" style="background-color:;"> <h2>Our Clients</h2></div>
+            <div class="col-lg-5 col-xs-12" style="background-color:;"></div>
+            <div class="col-lg-4 col-xs-12" style="background-color:;"></div>
+          </div>
+ 
+          <div class="row">
+            <div class="col-lg-2 col-xs-4" style="background-color:;">
+                <div class="clients_well">
+                  <div class="well">
+                     <img src="image/27.png" width="100%">
+                  </div><!--well-->
+                </div><!--clients Well-->
+            </div>
+            <div class="col-lg-2 col-xs-4" style="background-color:;">
+              <div class="clients_well">
+                  <div class="well">
+                     <img src="image/27.png" width="100%">
+                  </div><!--well-->
+                </div><!--clients Well-->
+            </div>
+            <div class="col-lg-2 col-xs-4" style="background-color:;">
+              <div class="clients_well">
+                  <div class="well">
+                     <img src="image/27.png" width="100%">
+                  </div><!--well-->
+                </div><!--clients Well-->
+            </div>
+            <div class="col-lg-2 col-xs-4" style="background-color:;">
+              <div class="clients_well">
+                  <div class="well">
+                     <img src="image/27.png" width="100%">
+                  </div><!--well-->
+                </div><!--clients Well-->
+            </div>
+            <div class="col-lg-2 col-xs-4" style="background-color:;">
+              <div class="clients_well">
+                  <div class="well">
+                     <img src="image/27.png" width="100%">
+                  </div><!--well-->
+                </div><!--clients Well-->
+            </div>
+             <div class="col-lg-2 col-xs-4" style="background-color:;">
+              <div class="clients_well">
+                  <div class="well">
+                     <img src="image/27.png" width="100%">
+                  </div><!--well-->
+                </div><!--clients Well-->
+            </div>
+          </div>     
+ 
+</div><!--section9-->
+<style type="text/css">
+.clients_well .well
+{
+  border-radius:0px;
+  height: 100%; 
+  background-color:white;
+}
+  #section9 h2
+  {
+    letter-spacing: 3px;
+    text-align:left;
+    color:#0C8FF9; 
+    margin-bottom: 30px;
+    font-family: 'Chicle';
+  }
+  #section9 
+  {
+    padding-top:30px;
+    height:100%;
+    background-color:#E4FEE1;
+    padding-bottom: 30px;
+  }
+  #section9 h4
+  {
+     letter-spacing: 2px;
+    text-align: center;
+    color:orange; 
+    font-family: georgia header; 
+  }
+</style>
+
+<div id="section10" class="container-fluid">
+  <div class="container"> 
+    <div class="row">
+      <div class="navigation">
+          <div class="col-lg-4 col-xs-12" style="background-color:;">
+           <h4><b>Green Leaf Logistics</b><h4> 
+               <hr />
+              <p style="color: white;">By making a father-daughter journey the core of this story, and by using horror tropes of the genre solely.</p>
+              <br>
+                    <div class="social"> 
+                             <a href="#"><i class="fa fa-facebook"></i></a> 
+                             <a href="#"><i class="fa fa-google"></i></a> 
+                             <a href="#"><i class="fa fa-instagram"></i></a>
+                             <a href="#"><i class="fa fa-linkedin"></i></a> 
+                             <a href="#"><i class="fa fa-twitter"></i></a>  
+                    </div>
+          </div>
+          <div class="col-lg-2 col-xs-6" style="background-color:;">
+            <h4><b>Quick Links</b></h4> 
+            <hr />
+              <div class="one">
+                  <h6><a href="#section1"> Home</a></h6>
+              </div>
+               <div class="two">
+                <h6><a href="#section2">Services</a> </h6>
+              </div>
+               <div class="three">
+                <h6><a href="#section9">Contact Us</a> </h6>
+              </div>
+               <div class="four">
+                <h6><a href="#">Services Provided Areas</a> </h6>
+              </div>
+               <div class="five">
+                <h6><a href="#">Our Partners</a></h6>
+              </div>
+             
+          </div>
+          <div class="col-lg-2 col-xs-6" style="background-color:;">
+             <h4><b>Our Services</b><h4> 
+              <hr />
+                <div class="one">
+                  <h6><a href="">Cargo Planning</a></h6>
+                </div>
+                <div class="two"> 
+                 <h6><a href="">Cargo Planning</a></h6>
+                </div>
+                <div class="three"> 
+                  <h6><a href="">Cargo Planning</a></h6>
+                </div>
+                <div class="four"> 
+                   <h6><a href="">Cargo Planning</a></h6>
+                </div>
+                <div class="five">   
+                  <h6><a href="">Cargo Planning</a></h6>
+                </div>
+          </div>
+           <div class="col-lg-4 col-xs-12" style="background-color:;">
+            <h4><b>Contact Info</b></h4> 
+            <hr />
+            <h6>You can us or visit us during working hours.</h6>
+            <br>
+            <h6>Tel : 123456789</h6>
+            <h6>Email : avinashsingh4494@gmail.com</h6>
+            <h6>Working Hours : 8:00am to 20:00pm </h6>
+          </div>
+        
+      </div>
+  </div> 
+  </div>
+  <style>
+    .navigation h4
+    {
+    letter-spacing: 3px;
+    text-align:left;
+    color: white;
+    font-size: 16px;
+    font-family:rockwell;
+    }
+    .navigation h6
+    {
+      font-family: georgia header;
+      text-align:right;
+      font-size: 16px;
+      letter-spacing: 1px;
+      line-height: 20px;
+    }
+     .navigation a
+    {
+      color: white;
+      text-decoration: none;
+    }
+    .navigation .one:hover a
+    {
+      transition: 1s;
+     color:#03d316;
+     letter-spacing: 3px;
+      text-decoration: none;
+    }
+     .navigation .two:hover a
+    {
+      transition: 1s;
+     color:#03d316;
+     letter-spacing: 3px;
+      text-decoration: none;
+    }
+     .navigation .three:hover a
+    {
+      transition: 1s;
+     color:#03d316;
+     letter-spacing: 3px;
+      text-decoration: none;
+    }
+     .navigation .four:hover a
+    {
+      transition: 1s;
+     color:#03d316;
+     letter-spacing: 3px;
+      text-decoration: none;
+    }
+     .navigation .five:hover a
+    {
+      transition: 1s;
+     color:#03d316;
+     letter-spacing: 3px;
+      text-decoration: none;
+    }
+    .quick_links:hover a
+    {
+      color: red;
+      text-decoration: none;
+    }
+     .social
+    {
+      text-align:left;
+     }
+     .social .fa:hover
+      {
+        transition: 0.7s;
+        transform:rotate(-45deg);
+      }
+    .navigation i
+    {
+      color:#03D316;
+      font-size: 16px;
+      border: 1px solid #03D316;
+      padding: 8px;
+      margin-left:5px;
+      margin-right: 5px;
+      border-radius: 50%;
+    }
+     .navigation p
+     {
+      font-family: georgia header;
+      text-align: left;
+      font-size: 16px;
+      line-height: 20px;
+
+     }
+     .subscribe_us_well .well
+     {
+      background-color:transparent;
+      height: 100%;
+      padding: 10px;
+      border: none;
+      border-radius: 0px;
+     }
+  </style>
+ 
+ <div class="move_up">
+      <div class="row">
+       <div class="col-lg-11 col-xs-12" style="background-color:;"></div>
+       <div class="col-lg-1 col-xs-12" style="background-color:;">
+        <a href="#section1" >
+         <i class="fa fa-chevron-up" data-toggle="tooltip" data-placement="bottom" title="To The Top"></i>
+        </a>
+      </div>
+      </div> 
+    </div>
+    <script>
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();   
+});
+</script>
+<div class="container">
+  <div class="row">
+   <div class="col-lg-2 col-xs-12" style="background-color:;"></div>
+    <div class="col-lg-8 col-xs-12" style="background-color:;">
+        <div class="subscribe_us_well">
+          <div class="well">
+              <div class="row">
+                <form action="" method="post">
+                    <div class="col-lg-10 col-xs-9" style="background-color:;">
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="usr" placeholder="Subscribe Here" required="">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-xs-3" style="background-color:;">
+                        <button class="btn btn-info btn-block"><b>Send</b></button>
+                    </div> 
+               </form>
+              </div>
+          </div><!--well-->
+        </div><!--subscribe_us Well-->
+    </div>
+     <div class="col-lg-2 col-xs-12" style="background-color:;"></div>
+  </div>   
+</div>
+ 
+    <style>
+#section10 input
+{
+  border:1px solid steelblue;
+  border-radius: 0px;
+  margin-top: 15px;
+  padding: 20px;
+}
+.btn-info
+{
+  border-radius: 0px;
+  background-color:#FE0000;
+  border:none;
+  padding: 10px;
+  font-family: georgia header;
+  letter-spacing: 3px;
+   margin-top: 15px;
+}
+.btn-info:hover
+{
+  background-color:black;
+  transition: 0.9s;
+}
+
+    #section10
+  {
+    padding-top:10px;
+    height:100%;
+    color: #fff; 
+    background-color:#2D3E2B  ; 
+  }
+   .footer
+   {
+    height: 40px;
+    background-color: black;
+   }
+        .footer h5
+      {
+        font-family: georgia header;
+        color: white;
+        letter-spacing: 3px;
+        font-size: 12px;
+        text-align: center;  
+      }
+      .footer h4
+      {
+        font-family: georgia header;
+        color: white;
+        letter-spacing: 3px;
+        font-size: 14px;
+        text-align: center;  
+      }
+      .footer h5 a
+      {
+        text-decoration: none;
+      }
+      
+      .move_up a
+      {
+        color: white;
+      }
+      .move_up i
+      {
+          scroll-behavior: smooth;
+          font-size: 16px;
+          padding-top: 10px;
+          padding-left: 12px;
+          float: right;
+          height: 40px;
+          width: 40px;
+          background-color: black;
+          border-radius: 50%;
+          margin-right: 10px;
+          cursor: pointer;
+
+      }
+    </style>
+</div>
+       <div class="row">
+          <div class="footer">
+            <div class="col-lg-3 col-xs-12 col-sm-12 col-md-12" style="background-color:;"></div>
+              <div class="col-lg-6 col-xs-12 col-sm-12 col-md-12" style="background-color:;">
+                  <h5><i class="fa fa-copyright"></i> All Rights Reserved 2007-2018 websitename.com</h5>
+              </div>
+              <div class="col-lg-3 col-xs-12 col-sm-12 col-md-12" style="background-color:;">
+                <h4><b>Created By : Avinash Singh</b></h4>
+              </div>
+          </div>
+      </div>
+                          
+</body>
+</html>
